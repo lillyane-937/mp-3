@@ -1,4 +1,3 @@
-import React from "react";
 import styled from "styled-components";
 //style the footer section of the webpage
 const FooterWrapper = styled.footer `

@@ -1,4 +1,3 @@
-import React from "react";
 import { HeaderComp } from "./HeaderComp"; // Importing the Header component
 import { FooterComp } from "./FooterComp"; // Importing the Footer component
 import MainComp from "./MainComp"; // Importing the Main component to display content

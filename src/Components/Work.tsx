@@ -1,4 +1,4 @@
-import React from "react";
+
 import { HeaderComp } from "./HeaderComp"; // Import updated HeaderComp
 import { FooterComp } from "./FooterComp"; // Import FooterComp
 import MainComp from "./MainComp"; // Import MainComp
