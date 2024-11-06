@@ -1,50 +1,45 @@
-# React + TypeScript + Vite
+# 🖥️ Online Resume Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my **Online Resume Website**! This project showcases my resume in an interactive and dynamic web format, bringing a traditional resume to life through responsive design and engaging features.
 
-Currently, two official plugins are available:
+## 🌐 Project Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This responsive website replicates my resume in a clean and visually appealing format, designed with a blend of **React**, **TypeScript**, and **styled-components**. It goes beyond a static page by featuring an **interactive calculator** built with React hooks to enhance user engagement.
 
-## Expanding the ESLint configuration
+### 🔗 [Live Demo](#) (Add link if available)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## ✨ Key Features
 
-- Configure the top-level `parserOptions` property like this:
+- **Responsive Design**: Adapts beautifully to different screen sizes, ensuring optimal viewing on both desktop and mobile devices.
+- **Interactive Calculator**: A custom calculator on one of the pages, created with React hooks for functionality, showcasing my skills in dynamic React components.
+- **Reusable React Components**: Built using modular components coded in TypeScript for maintainability and scalability.
+- **Styled with styled-components**: Implemented **styled-components** for CSS-in-JS styling, providing a cohesive and adaptable design across the site.
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## 🛠️ Technologies Used
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+- **Languages**: TypeScript, JavaScript
+- **Framework**: React
+- **Styling**: styled-components
+- **Other**: React Hooks
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+## 📂 Project Structure
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+The project is organized into clear folders for ease of navigation:
+
+- **src/components**: Contains reusable React components for various sections (header, footer, sections, etc.).
+- **src/pages**: Holds the main pages, including the resume page and calculator page.
+- **src/styles**: Custom styles built with styled-components for a consistent design.
+
+## 💡 What I Learned
+
+This project was a deep dive into:
+
+- **TypeScript in React**: Building components in TypeScript improved type safety and helped catch errors early.
+- **React Hooks**: Leveraging hooks, especially for the interactive calculator, provided a hands-on understanding of functional React.
+- **Responsive Design with styled-components**: Creating a cohesive design with styled-components offered both flexibility and control over the styling process.
+
+## 🚀 How to Run the Project Locally
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/lillyane-937/mp-1
