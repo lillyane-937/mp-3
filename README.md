@@ -6,9 +6,9 @@ Welcome to my **Online Resume Website**! This project showcases my resume in an 
 
 This responsive website replicates my resume in a clean and visually appealing format, designed with a blend of **React**, **TypeScript**, and **styled-components**. It goes beyond a static page by featuring an **interactive calculator** built with React hooks to enhance user engagement.
 
-### 🔗 [Live Demo](#) (Add link if available)
+### 🔗 [Live Demo](#) https://mp-3-ashen.vercel.app/
 
-## ✨ Key Features
+##  Key Features
 
 - **Responsive Design**: Adapts beautifully to different screen sizes, ensuring optimal viewing on both desktop and mobile devices.
 - **Interactive Calculator**: A custom calculator on one of the pages, created with React hooks for functionality, showcasing my skills in dynamic React components.
