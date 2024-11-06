@@ -38,8 +38,3 @@ This project was a deep dive into:
 - **React Hooks**: Leveraging hooks, especially for the interactive calculator, provided a hands-on understanding of functional React.
 - **Responsive Design with styled-components**: Creating a cohesive design with styled-components offered both flexibility and control over the styling process.
 
-## 🚀 How to Run the Project Locally
-
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/lillyane-937/mp-1
