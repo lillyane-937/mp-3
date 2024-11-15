@@ -27,8 +27,8 @@ This responsive website replicates my resume in a clean and visually appealing f
 The project is organized into clear folders for ease of navigation:
 
 - **src/components**: Contains reusable React components for various sections (header, footer, sections, etc.).
-- **src/pages**: Holds the main pages, including the resume page and calculator page.
-- **src/styles**: Custom styles built with styled-components for a consistent design.
+- **src/assets**: Holds the main component and App component which used for routing the navigation bar and displaying all the pages.
+- 
 
 ## 💡 What I Learned
 
